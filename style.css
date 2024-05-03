@@ -18,6 +18,7 @@ body{
     border: none;
     padding: 10px 15px;
     background-color: rgb(255, 255, 255);
+    hover
 }
 
 /* regole header top bar*/
@@ -41,7 +42,7 @@ header .sez-nav{
     text-align: center;
 }
 
-li{
+.navigazione li{
     display: inline;
     padding: 0 20px;
 }
@@ -101,8 +102,7 @@ h1{
 }
 
 .sez-main.gray{
-        /* DEBUG */
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(246, 246, 246);
 }
 
 .immagine-main{
@@ -163,46 +163,80 @@ footer{
 
 footer .link{
     min-height: 450px;
-    margin-top: 10px;
+    margin-top: 60px;
 
 }
 
 footer .social{
     width: 20%;
+    color: white;
         /* DEBUG */
-    background-color: rgb(240, 128, 128);
-    border: 2px dashed black;
+}
+
+.social h3{
+    font-size: 30px;
+    color: rgb(88, 104, 160);
+}
+
+.selettore-lingua{
+    margin: 15px 0;
+    font-size: 12px;
+    display: flex;
+}
+
+.selettore-lingua img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.selettore-lingua i{
+    font-size: 8px;
+}
+
+.icon-social i{
+    font-size: 15px;
+    margin-right: 20px;
 }
 
 .container{
     width: 40%;
         /* DEBUG */
-    background-color: rgb(32, 178, 170);
 }
 
 .link-footer{
     width: 25%;
-        /* DEBUG */
-    border: 2px dashed white;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.link-footer li{
+    padding-bottom: 10px;
+    list-style-type: none;
+
+}
+
+.link-footer li:first-child{
+    color: rgb(98, 117, 183);
+    font-weight: 700;
 }
 
 /* logo + sign in */
+#sign-in{
+    color: white;
+    background-color:rgb(98, 117, 183);
+}
 .container-logo-bottone{
     width: 60%;
-    min-height: 60px;
     margin-top: 20px;
     align-items: center;
     justify-content: space-between;
-        /* DEBUG */
-    background-color: rgb(127, 255, 212);    
 }
 
 .bottone-footer{
     min-height: 25px;
     margin: 15px 0;
         /* DEBUG */
-    background-color: rgb(245, 174, 183);
-    border: 2px dashed black;
-    padding: 5px 10px;
-    line-height: 10px;
+    padding: 0;
 }

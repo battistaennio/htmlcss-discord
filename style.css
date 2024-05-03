@@ -59,6 +59,7 @@ a {
 .sez-headertitle{
     min-height: 350px;
     align-items: center;
+    margin-top: 40px;
 }
 
 .blocco-header-title{
@@ -97,8 +98,6 @@ h1{
 .blocco-main{
     min-height: 385px;
     margin: 30px 0px;
-        /* DEBUG */
-    border: 2px dashed black;
 }
 
 .sez-main.gray{
@@ -106,24 +105,49 @@ h1{
     background-color: rgb(211, 211, 211);
 }
 
-.blue{
+.immagine-main{
     width: 38%;
         /* DEBUG */
-    background-color: rgb(30, 144, 255);
 }
 
-.pink{
+.immagine-main img{
+    width: 100%;
+}
+
+.descrizione-immagine{
     width: 22%;
-        /* DEBUG */
-    background-color: rgb(255, 192, 203);
+}
+
+.descrizione-immagine h2{
+    font-size: 40px;
+}
+
+.descrizione-immagine p{
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 25px;
 }
 
 /* sezione 4 più grande */
-.green{
+.big{
     width: 60%;
     min-height: 615px;
-        /* DEBUG */
-    background-color: rgb(34, 139, 34);
+    text-align: center;
+}
+
+.big h3{
+    background-image: url(img/stars.svg);
+    padding: 30px 40px;
+    font-size: 25px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.big button{
+    color: white;
+    background-color: rgb(142, 161, 225);
+    margin-bottom: 50px;
 }
 
 /* sezione footer link social + link footer */

@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .bottone{
@@ -18,7 +18,6 @@ body{
     border: none;
     padding: 10px 15px;
     background-color: rgb(255, 255, 255);
-    hover
 }
 
 /* regole header top bar*/
@@ -28,8 +27,7 @@ header{
 }
 
 header .sez-nav{
-    height: 80px;
-    align-items: center;
+padding: 30px 0;
 }
 
 .blocco-header{
@@ -57,17 +55,12 @@ a {
 }
 
 /*descrizione prodotto + bottone download software e web app*/
-.sez-headertitle{
-    min-height: 350px;
-    align-items: center;
-    margin-top: 40px;
-}
 
 .blocco-header-title{
     width: 40%;
-    min-height: 285px;
     text-align: center;
     color: white;
+    margin: 70px auto;
 }
 
 h1{
@@ -91,14 +84,8 @@ h1{
 }
 
 /* regole main */
-.sez-main{
-    min-height: 450px;
-    align-items: flex-start;
-}
-
 .blocco-main{
-    min-height: 385px;
-    margin: 30px 0px;
+    margin: 80px 0px;
 }
 
 .sez-main.gray{
@@ -107,7 +94,6 @@ h1{
 
 .immagine-main{
     width: 38%;
-        /* DEBUG */
 }
 
 .immagine-main img{
@@ -131,7 +117,6 @@ h1{
 /* sezione 4 più grande */
 .big{
     width: 60%;
-    min-height: 615px;
     text-align: center;
 }
 
@@ -156,14 +141,12 @@ footer{
 }
 
 .sez-footer{
-    min-height: 500px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(54, 64, 86);
     align-items: flex-start;
 }
 
 footer .link{
-    min-height: 450px;
-    margin-top: 60px;
+    margin: 60px 0;
 
 }
 
@@ -229,14 +212,11 @@ footer .social{
 }
 .container-logo-bottone{
     width: 60%;
-    margin-top: 20px;
     align-items: center;
     justify-content: space-between;
 }
 
 .bottone-footer{
-    min-height: 25px;
     margin: 15px 0;
-        /* DEBUG */
     padding: 0;
 }

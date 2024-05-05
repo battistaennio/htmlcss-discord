@@ -13,6 +13,16 @@ body{
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.scrittanera{
+    color: black;
+}
+
+
 .bottone{
     border-radius: 25px;
     border: none;
@@ -43,11 +53,6 @@ padding: 30px 0;
 .navigazione li{
     display: inline;
     padding: 0 20px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 .login{
@@ -84,6 +89,20 @@ h1{
 }
 
 /* regole main */
+.wave-1hkxOo{
+    color: rgb(246, 246, 246);
+    display: inline-block;
+    margin-bottom: -10px;
+    ;
+}
+
+
+#wave-white{
+    transform: rotate(180deg);
+
+}
+
+
 .blocco-main{
     margin: 80px 0px;
 }

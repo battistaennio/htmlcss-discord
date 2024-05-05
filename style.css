@@ -13,21 +13,32 @@ body{
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* regole links */
 a {
     text-decoration: none;
     color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .scrittanera{
     color: black;
 }
 
-
+/* regole button */
 .bottone{
     border-radius: 25px;
     border: none;
     padding: 10px 15px;
     background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+[type=button]:hover{
+    background-color: rgba(0, 0, 255, 0.250);
+    text-decoration: underline;
 }
 
 /* regole header top bar*/
@@ -93,18 +104,19 @@ h1{
     color: rgb(246, 246, 246);
     display: inline-block;
     margin-bottom: -10px;
-    ;
 }
 
 
 #wave-white{
     transform: rotate(180deg);
-
 }
 
+.sez-main{
+    align-items: center;
+}
 
 .blocco-main{
-    margin: 80px 0px;
+    margin: 80px 40px;
 }
 
 .sez-main.gray{
@@ -160,7 +172,6 @@ footer{
 }
 
 .sez-footer{
-    border-bottom: 2px solid rgb(54, 64, 86);
     align-items: flex-start;
 }
 
@@ -172,7 +183,6 @@ footer .link{
 footer .social{
     width: 20%;
     color: white;
-        /* DEBUG */
 }
 
 .social h3{
@@ -202,7 +212,6 @@ footer .social{
 
 .container{
     width: 40%;
-        /* DEBUG */
 }
 
 .link-footer{
@@ -233,9 +242,10 @@ footer .social{
     width: 60%;
     align-items: center;
     justify-content: space-between;
+    border-top: 2px solid rgb(54, 64, 86);
 }
 
 .bottone-footer{
-    margin: 15px 0;
+    margin: 30px 0;
     padding: 0;
 }
